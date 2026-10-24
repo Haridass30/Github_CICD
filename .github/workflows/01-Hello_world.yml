@@ -19,7 +19,8 @@ jobs:
           add=$(($a +$b))
           sub=$(($b - $a))
           mul=$(($a * $b))
-
+      - name: Print add,sub,mul
+        run: |
           echo "Addition of $a and $b : $add "
           echo "Subtraction of $a and $b : $sub"
           echo "Multiplication of $a and $b : $mul"
