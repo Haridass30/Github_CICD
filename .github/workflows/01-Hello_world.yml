@@ -13,5 +13,5 @@ jobs:
         run: |
           echo "This is the Github action Ubuntu Server"
           echo "This server user is $USER"
-          echo "This server storeage is $(dh -h)"
+          echo "This server storeage is $(df -h)"
           echo "This Reposistory is $GITHUB_REPOSITORY"
