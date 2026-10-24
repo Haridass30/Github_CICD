@@ -1,0 +1,17 @@
+name: 01-Hello_world
+
+on: workflow_dispatch
+
+Jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Greetings
+        run: echo "Hello world"
+      
+      - name: Print multiple Lines!!
+        run: |
+          echo "This is the Github action Ubuntu Server"
+          echo "This server user is $USER"
+          echo "This server storeage is $(dh -h)"
+          echo "This Reposistory is $GITHUB_REPOSITORY"
