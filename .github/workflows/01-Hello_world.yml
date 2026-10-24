@@ -15,3 +15,11 @@ jobs:
           echo "This server user is $USER"
           echo "This server storeage is $(df -h)"
           echo "This Reposistory is $GITHUB_REPOSITORY"
+          a=10 b=30
+          add=$(($a +$b))
+          sub=$(($b - $a))
+          mul=$(($a * $b))
+
+          echo "Addition of $a and $b : $add "
+          echo "Subtraction of $a and $b : $sub"
+          echo "Multiplication of $a and $b : $mul"
