@@ -4,7 +4,7 @@ on: push
 
 jobs:
   push_exmaple:
-    runs-ons: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: show example of github actions cmd
         run: |
