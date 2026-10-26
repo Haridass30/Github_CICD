@@ -1,6 +1,8 @@
 name: Pull_Request(PR)
 on:
   pull_request:
+    branches:
+      - "devlopment"
 
 jobs:
   Pull_request_exp:
