@@ -14,3 +14,4 @@ jobs:
           echo "GITHUB_SHA this show trigger commit : $GITHUB_SHA"
           echo "GITHUB_REF is show the branch or tag ref that triggered the workflow run : $GITHUB_REF"
           echo "GITHUB_EVENT_NAME is show the name of the event triggers the workflow : $GITHUB_EVENT_NAME"
+          echo "User name : $USER"
