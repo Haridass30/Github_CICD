@@ -5,12 +5,12 @@ on:
 jobs:
   Pull_request_exp:
     runs-on: ubuntu-latest
-    step:
-    - name: This is cmd show for exmaple
-      run: |
-        echo "Github repo Name : $GITHUB_REPOSITORY"
-        echo "Github workspace it a directory : $GITHUB_WORKSPACE"
-        echo "GITHUB_ACTOR is a name of the person and init bot name : $GITHUB_ACTOR"
-        echo "GITHUB_SHA this show trigger commit : $GITHUB_SHA"
-        echo "GITHUB_REF is show the branch or tag ref that triggered the workflow run : $GITHUB_REF"
-        echo "GITHUB_EVENT_NAME is show the name of the event triggers the workflow : $GITHUB_EVENT_NAME"
+    steps:
+      - name: This is cmd show for exmaple
+        run: |
+          echo "Github repo Name : $GITHUB_REPOSITORY"
+          echo "Github workspace it a directory : $GITHUB_WORKSPACE"
+          echo "GITHUB_ACTOR is a name of the person and init bot name : $GITHUB_ACTOR"
+          echo "GITHUB_SHA this show trigger commit : $GITHUB_SHA"
+          echo "GITHUB_REF is show the branch or tag ref that triggered the workflow run : $GITHUB_REF"
+          echo "GITHUB_EVENT_NAME is show the name of the event triggers the workflow : $GITHUB_EVENT_NAME"
