@@ -1,0 +1,13 @@
+name: on_push
+
+on: push
+
+jobs:
+  push_exmaple:
+    runs-ons: ubuntu-latest
+    steps:
+      - name: show example of github actions cmd
+        run: |
+          echo "The github repo is : $GITHUB_REPO "
+          echo "THe github commit sha : $GITHUB_SHA"
+          echo "the github ref : $GITHUB_REF"
