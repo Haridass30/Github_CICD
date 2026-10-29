@@ -6,7 +6,7 @@ on:
       - main
 
 jobs:
-  show cmd:
+  show_cmd:
     runs-on: ubuntu-latest
     steps:
       - name: Show the system logs
