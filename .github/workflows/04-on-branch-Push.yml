@@ -7,6 +7,6 @@ on:
 jobs:
   show cmd:
     runs-on: ubuntu-latest
-    step:
+    steps:
       - name: Show the system logs
         run: sudo journalctl -k --since "1 hour ago"
