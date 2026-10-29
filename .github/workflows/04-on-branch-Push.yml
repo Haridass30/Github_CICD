@@ -2,7 +2,8 @@ name: On-Branch-Push
 
 on:
   push:
-  - main
+    branches:
+      - main
 
 jobs:
   show cmd:
