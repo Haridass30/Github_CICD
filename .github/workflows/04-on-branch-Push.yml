@@ -11,3 +11,4 @@ jobs:
     steps:
       - name: Show the system logs
         run: sudo journalctl -k --since "1 hour ago"
+        
